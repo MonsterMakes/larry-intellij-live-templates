@@ -1,0 +1,7 @@
+<template name="fa" value="($ARGS$)=&gt;{&#10;    $END$&#10;}" description="fat arrow function" toReformat="true" toShortenFQNames="true">
+    <variable name="ARGS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+        <option name="JAVA_SCRIPT" value="true" />
+        <option name="JSX_HTML" value="false" />
+    </context>
+</template>
