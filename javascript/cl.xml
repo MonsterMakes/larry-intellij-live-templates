@@ -1,6 +1,0 @@
-<template name="cl" value="class $CLASSNAME$ {&#10;    constructor(){&#10;    $END$&#10;    }&#10;}" description="named class" toReformat="false" toShortenFQNames="true">
-    <variable name="CLASSNAME" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-        <option name="JAVA_SCRIPT" value="true" />
-    </context>
-</template>

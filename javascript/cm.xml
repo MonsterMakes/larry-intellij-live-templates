@@ -1,8 +1,0 @@
-<template name="cm" value="$METHODNAME$($ARGS$){&#10;    $END$&#10;}" description="class method" toReformat="false" toShortenFQNames="true">
-    <variable name="METHODNAME" expression="jsMethodName()" defaultValue="" alwaysStopAt="true" />
-    <variable name="ARGS" expression="jsSuggestVariableName()" defaultValue="" alwaysStopAt="true" />
-    <context>
-        <option name="JAVA_SCRIPT" value="true" />
-        <option name="JSX_HTML" value="false" />
-    </context>
-</template>
