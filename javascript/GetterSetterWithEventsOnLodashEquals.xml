@@ -1,0 +1,8 @@
+<template name="gsee" value="get $P1$(){&#10;    return this.get$P2$();&#10;}&#10;get$P2$(){&#10;    return this._$P1$;&#10;}&#10;set $P1$($A1$){&#10;    return this.set$P2$($A1$);&#10;}&#10;set$P2$($A1$,silent){&#10;    let old = this._$P1$;&#10;    this._$P1$ = $A1$;&#10;    if(!silent &amp;&amp; !_.isEquals(old,this._$P1$){&#10;        this.emit(&quot;$P2$Changed&quot;,this._$P1$,old);&#10;    }&#10;    return this;&#10;}" description="Getter Setter with Component event pattern lodash equality" toReformat="false" toShortenFQNames="true">
+    <variable name="P1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="P2" expression="capitalize(P1)" defaultValue="" alwaysStopAt="false" />
+    <variable name="A1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+        <option name="JAVA_SCRIPT" value="true" />
+    </context>
+</template>

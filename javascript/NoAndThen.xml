@@ -1,0 +1,5 @@
+<template name="noandthen" value=".catch((error)=&gt;{&#10;    $END$&#10;});" description="catch with fat arrow fn" toReformat="true" toShortenFQNames="true">
+    <context>
+        <option name="JAVA_SCRIPT" value="true" />
+    </context>
+</template>
